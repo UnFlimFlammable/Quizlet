@@ -8,6 +8,6 @@ import org.springframework.web.servlet.ModelAndView;
 public class TestController {
 	@RequestMapping("/test")
 	public ModelAndView testView(){
-		return new ModelAndView("Test");
+		return new ModelAndView("ButtonMonitor");
 	}
 }
